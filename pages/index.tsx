@@ -13,7 +13,7 @@ const Index = () => {
         {data.cta.subtitle}
       </p>
       <div className="my-16">
-        <LinkButton text={data.cta.btnSecondary} type="light" link="/" />
+        <LinkButton text={data.cta.btnSecondary} type="secondary" link="/" />
         <LinkButton text={data.cta.btnPrimary} type="primary" link="/" />
       </div>
     </div>
