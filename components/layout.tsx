@@ -1,5 +1,6 @@
 import { AppProps } from "next/dist/next-server/lib/router/router";
 import React from "react";
+import Footer from "./footer";
 import Header from "./header";
 import Meta from "./meta";
 
@@ -11,6 +12,7 @@ const Layout = ({ children }: AppProps) => {
       <main className="min-h-screen">
         <div className="container mx-auto px-5 max-w-7xl">{children}</div>
       </main>
+      <Footer />
     </>
   );
 };

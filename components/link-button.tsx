@@ -9,11 +9,13 @@ type Props = {
 
 const setType = (type) => {
   switch (type) {
+    case "light":
+      return "bg-white hover:text-black hover:bg-grey-200";
     case "secondary":
-      return "bg-green-200 hover:bg-green-400";
+      return "bg-green-200 hover:bg-green-400 hover:text-white";
     case "primary":
     default:
-      return "bg-pink-200 hover:bg-pink-400";
+      return "bg-pink-200 hover:bg-pink-400 hover:text-white";
   }
 };
 
@@ -24,7 +26,7 @@ const LinkButton = ({ text, type, link }: Props) => {
     <Link href={link}>
       <a
         className={
-          "relative z-10 text-lg mx-4 px-5 py-2 font-bold leading-tight text-black border-4 border-gray-900 rounded-lg hover:text-white " +
+          "relative z-10 text-lg mx-4 px-5 py-2 font-bold leading-tight text-black border-4 border-gray-900 rounded-lg  " +
           cssColors
         }
       >
