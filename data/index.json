@@ -7,5 +7,26 @@
     "btnSecondary": "Qu'est ce qu'un biais ?",
     "image": "/logo-brain.svg",
     "imageAlt": "Logo du site Biais Cognitifs"
+  },
+  "laPsychologie": {
+    "title": "Pourquoi la psychologie ?",
+    "text": "Il y a plusieurs avantages a utiliser la psychologie, le premier, c'est que ce n'est pas quelque chose de temporaire.",
+    "cards": [
+      {
+        "title": "Intemporel",
+        "subtitle": "TOUJOURS UTILE",
+        "text": "Que ce soit aujourd'hui ou demain, ce que vous allez appliquer et apprendre vous sera toujours utile"
+      },
+      {
+        "title": "Applicable",
+        "subtitle": "RAPIDE",
+        "text": "Facilement applicable, vous verrez rapidement les bénéfices des conseils sur votre conversion"
+      },
+      {
+        "title": "Déjà testé",
+        "subtitle": "EMPIRISME",
+        "text": "Tous les conseils prodigué ont déjà été testé et approuvé par les grands du web, aucun soucis a se faire"
+      }
+    ]
   }
 }
